@@ -1,0 +1,36 @@
+.grid {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(3, 0fr);
+  justify-content: center;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  font-size: 5rem;
+  color: #e8e5e5;
+  border-color: 1px solid black;
+}
+
+.square_o {
+  background-color: rgb(107, 184, 209);
+}
+
+.square_x {
+  background-color: rgb(255, 144, 236);
+}
+
+p {
+  font-size: 2rem;
+}
+
+.reset {
+  margin-top: 2rem;
+  font-size: 2rem;
+  background-color: rgb(172, 128, 179);
+  border: none;
+  border-radius: 6px;
+  padding: 1rem;
+  cursor: pointer;
+}
